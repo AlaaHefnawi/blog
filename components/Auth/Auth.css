@@ -1,0 +1,83 @@
+.auth{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .heading{
+    width: 430px;
+    h2{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 24px;
+    }
+    .subtitle{
+    margin: 8px 0 24px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color:#C0C5D0;
+    }
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        input{
+            padding: 12px 16px;
+            width: 430px;
+            height: 48px;
+            border-radius: 8px;
+            border: 1px solid #7F56D9;
+            outline: none;
+            &::placeholder{
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 24px;
+                color: #667085;
+
+            }
+        }
+        button{
+        margin-bottom: 14px ;
+        height: 48px;
+        background-color: #7F56D9;
+        color: white;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        &:hover{
+        background-color: #6035be;
+        }
+    }    
+    }
+    .account{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    color: #1A1A1A;
+    a{
+    color: #1A1A1A;
+    cursor: pointer;
+    &:hover{
+        color: #7F56D9;
+        }
+
+    }
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .auth{
+        .heading{
+            width: 330px;
+        }
+        form{
+            input{
+            width: 330px;
+
+            }
+        }
+    }
+}

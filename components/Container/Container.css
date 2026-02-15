@@ -1,0 +1,27 @@
+.secSection{
+    margin: 32px 70px 84px ;
+    
+    h2{
+        margin-bottom: 56px;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 32px;
+        color: #1A1A1A;
+    }
+}
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width : 992px) {
+    .secSection{
+    margin: 32px 20px 84px ;
+}
+    .cards{
+    display: flex;
+    flex-direction: column;
+}
+}

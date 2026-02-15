@@ -1,0 +1,14 @@
+.footer{
+    padding: 23px 75px;
+    border-top: 1px solid #090D1F;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1A1A1A;
+}
+
+@media screen and (max-width : 992px) {
+    .footer{
+    padding: 23px 20px;
+}
+}
