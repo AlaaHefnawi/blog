@@ -1,12 +1,12 @@
 import Card from "../components/Card/Card"
 import Container from "../components/Container/Container"
 import Hero from "../components/Hero/Hero"
-import image1 from "../src/assets/images/image1.png"
-import image2 from "../src/assets/images/image2.png"
-import image3 from "../src/assets/images/image3.png"
-import image4 from "../src/assets/images/image4.png"
-import image5 from "../src/assets/images/image5.png"
-import image6 from "../src/assets/images/image6.png"
+import image1 from "../src/assets/images/Image1.png"
+import image2 from "../src/assets/images/Image2.png"
+import image3 from "../src/assets/images/Image3.png"
+import image4 from "../src/assets/images/Image4.png"
+import image5 from "../src/assets/images/Image5.png"
+import image6 from "../src/assets/images/Image6.png"
 
 const Home = () => {
     const cards = [
